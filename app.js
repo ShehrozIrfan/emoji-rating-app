@@ -38,23 +38,23 @@ box.addEventListener('keydown', function(e) {
     //the key code for 1 = 97 , 2 = 98, 3 = 99, 4 = 100, 5 = 101
     //console.log(e.keyCode);
     const keyValue = e.keyCode;
-    if(keyValue === 97) {
+    if(keyValue === 97 || keyValue === 49) {
         text.textContent = "🤬";
         para.textContent = "Your Emoji Rating : ";
         box.style.fontSize = "60px";
-    } else if(keyValue === 98) {
+    } else if(keyValue === 98 || keyValue === 50) {
         text.textContent = "☹️";
         para.textContent = "Your Emoji Rating : ";
         box.style.fontSize = "60px";
-    } else if(keyValue === 99) {
+    } else if(keyValue === 99 || keyValue === 51) {
         text.textContent = "😐";
         para.textContent = "Your Emoji Rating : ";
         box.style.fontSize = "60px";
-    } else if(keyValue === 100) {
+    } else if(keyValue === 100 || keyValue === 52) {
         text.textContent = "🙂";
         para.textContent = "Your Emoji Rating : ";
         box.style.fontSize = "60px";
-    } else if(keyValue === 101) {
+    } else if(keyValue === 101 || keyValue === 53) {
         text.textContent = "😁";
         para.textContent = "Your Emoji Rating : ";
         box.style.fontSize = "60px";
